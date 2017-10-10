@@ -27,10 +27,10 @@ public class TouchPullView extends View{
 
     private float mCirclePointX,mCirclePointY;
     //可拖动的高度
-    private int mDragHeight = 320;
+    private int mDragHeight = 120;
     private float mProgress;
     // 整体效果宽度(因“机”而异)
-    private int mTargetWidth = 1800;
+    private int mTargetWidth = 520;
     //bezier曲线的路径.
     private Path mPath = new Path();
     private Paint mPathPaint;
